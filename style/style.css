@@ -500,162 +500,10 @@ section {
     section:nth-of-type(2) .bar span {
       z-index: 1;
       padding: 0 15px 0 0; }
-  /* section:nth-of-type(3) {
-    background: #f5f5f5; }
-    section:nth-of-type(3) .container {
-      padding: 0; }
-    section:nth-of-type(3) .filter-wrap {
-      position: relative; }
-    section:nth-of-type(3) .filter {
-      font-size: 6pt;
-      font-weight: 600;
-      padding: 0 20px;
-      cursor: pointer;
-      transition: background-color .5s; }
-    section:nth-of-type(3) .float-bar {
-      top: 0;
-      bottom: 0;
-      left: 30px;
-      position: absolute;
-      margin: auto 0;
-      position: absolute;
-      overflow: hidden;
-      height: 25px;
-      border-radius: 1px;
-      background: #E31B6D;
-      transition: all .5s ease-in-out; }
-      section:nth-of-type(3) .float-bar .row {
-        top: 0;
-        bottom: 0;
-        left: -30px;
-        position: absolute;
-        margin: auto 0;
-        transition: left .5s ease-in-out; }
-        section:nth-of-type(3) .float-bar .row .filter {
-          color: #fff; }
-    section:nth-of-type(3) .text {
-      top: 0;
-      left: 0;
-      position: absolute;
-      width: 100%; }
-    section:nth-of-type(3) #gallery {
-      margin: 20px 0; }
-      section:nth-of-type(3) #gallery .text, section:nth-of-type(3) #gallery .button {
-        z-index: 2;
-        text-align: center;
-        opacity: 0;
-        transition: all 0.3s ease-in-out;
-        color: #1B242F; }
-        section:nth-of-type(3) #gallery .text .bold, section:nth-of-type(3) #gallery .button .bold {
-          font-size: 16pt; }
-      section:nth-of-type(3) #gallery .button {
-        right: 0;
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        border: 2px solid #E31B6D;
-        width: 170px;
-        margin: 0 auto;
-        font-size: 13pt;
-        padding: 7px 0; }
-      section:nth-of-type(3) #gallery .mix {
-        display: none;
-        position: relative; }
-        section:nth-of-type(3) #gallery .mix .waypoint {
-          background: #fff; }
-        section:nth-of-type(3) #gallery .mix .button:hover {
-          background: #E31B6D;
-          color: #fff; }
-        section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-          background: url("img/thumb-1.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-          background: url("img/thumb-2.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-          background: url("img/thumb-3.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-          background: url("img/thumb-4.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-          background: url("img/thumb-5.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-          background: url("img/thumb-6.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-          background: url("../img/thumb-7.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-          background: url("../img/thumb-8.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-          background: url("../img/thumb-9.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-          background: url("../img/thumb-10.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-          background: url("../img/thumb-11.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-          background: url("../img/thumb-12.jpg") center center/cover; }
-        section:nth-of-type(3) #gallery .mix .card {
-          height: 240px;
-          max-width: 100%;
-          width: calc(50vw - 8px);
-          cursor: pointer;
-          transition: opacity .5s; }
-        section:nth-of-type(3) #gallery .mix:hover .card {
-          opacity: 0; }
-        section:nth-of-type(3) #gallery .mix:hover .text {
-          opacity: 1;
-          top: 24%; }
-        section:nth-of-type(3) #gallery .mix:hover .button {
-          opacity: 1;
-          bottom: 24%; } */
+
   section .flex-50-gt-sm {
     display: block; }
-  /* section:nth-of-type(4) {
-    padding: 130px 0 100px 0;
-    text-align: left; }
-    section:nth-of-type(4) .flex.row-gt-sm, section:nth-of-type(4) .flex.wrap {
-      align-items: flex-start; }
-    section:nth-of-type(4) .gradient {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%; }
-    section:nth-of-type(4) .blog-wrap {
-      margin: 0 0 50px 0;
-      padding: 0 2px;
-      width: 100%;
-      cursor: pointer; }
-      section:nth-of-type(4) .blog-wrap #thumb-1 {
-        background: url("img/blog-1.jpg") center center/cover; }
-      section:nth-of-type(4) .blog-wrap #thumb-2 {
-        background: url("img/blog-2.jpg") center center/cover; }
-      section:nth-of-type(4) .blog-wrap #thumb-3 {
-        background: url("img/blog-3.jpg") center center/cover; }
-      section:nth-of-type(4) .blog-wrap #thumb-4 {
-        background: url("img/blog-4.jpg") center center/cover; }
-      section:nth-of-type(4) .blog-wrap .fade-wrap {
-        transition: opacity .3s; }
-      section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
-        opacity: 0.4; }
-      section:nth-of-type(4) .blog-wrap.hover .fade-wrap .label {
-        color: #04C2C9; }
-    section:nth-of-type(4) .label {
-      line-height: 14pt;
-      font-size: 12pt;
-      transition: color .3s ease-in-out; }
-    section:nth-of-type(4) .thumb {
-      height: 150px;
-      margin: 0 0 15px 0; }
-    section:nth-of-type(4) .date {
-      font-size: 7pt;
-      font-family: 'Open sans';
-      margin: 5px 0 0 0; }
-    section:nth-of-type(4) .bar {
-      height: 3px;
-      width: 25%;
-      background: #04C2C9;
-      margin: 10px 0px; }
-    section:nth-of-type(4) .text {
-      font-size: 9pt;
-      line-height: 13pt;
-      max-height: 85px; } */
+
   section:nth-of-type(3) {
     background: #252934;
     color: #fff;
@@ -777,9 +625,7 @@ footer {
       font-family: 'Open Sans';
       color: #04C2C9; }
 
-/* @media screen and (max-width: 400px) {
-  section:nth-of-type(3) #gallery .mix .card {
-    width: 100vw; } } */
+
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt; }
@@ -875,56 +721,14 @@ footer {
         width: 110px; }
     section:nth-of-type(2) .hexagon i {
       font-size: 40pt; }
-    /* section:nth-of-type(3) .filter {
-      font-size: 11pt;
-      margin: 0 15px;
-      padding: 0 30px; }
-    section:nth-of-type(3) .float-bar {
-      height: 30px; }
-    section:nth-of-type(3) #gallery .mix .card {
-      height: 300px; }
-    section:nth-of-type(4) {
-      padding: 130px 0 180px 0; }
-      section:nth-of-type(4) .label {
-        line-height: 22pt;
-        font-size: 16pt; }
-      section:nth-of-type(4) .date {
-        font-size: 8.5pt; }
-      section:nth-of-type(4) .bar {
-        margin: 15px 0px; }
-      section:nth-of-type(4) .text {
-        font-size: 11pt;
-        line-height: 15pt; }
-      section:nth-of-type(4) .blog-wrap {
-        width: 400px; }
-      section:nth-of-type(4) .thumb {
-        height: 200px; } */
+
     section:nth-of-type(3) form {
       min-width: 500px; } }
 @media screen and (min-width: 960px) {
   .waypoint {
     opacity: 0; }
 
-  /* .animated.waypoint#gallery {
-    opacity: 1; }
-    .animated.waypoint#gallery .mix:nth-child(1) > div {
-      opacity: 0;
-      animation: slideUp 0.75s 0.1s ease both; }
-    .animated.waypoint#gallery .mix:nth-child(2) > div {
-      opacity: 0;
-      animation: slideUp 0.75s 0.2s ease both; }
-    .animated.waypoint#gallery .mix:nth-child(3) > div {
-      opacity: 0;
-      animation: slideUp 0.75s 0.3s ease both; }
-    .animated.waypoint#gallery .mix:nth-child(4) > div {
-      opacity: 0;
-      animation: slideUp 0.75s 0.4s ease both; }
-    .animated.waypoint#gallery .mix:nth-child(5) > div {
-      opacity: 0;
-      animation: slideUp 0.75s 0.5s ease both; }
-    .animated.waypoint#gallery .mix:nth-child(6) > div {
-      opacity: 0;
-      animation: slideUp 0.75s 0.6s ease both; } */
+
 
   .animated.slide-up {
     animation: slideUp .75s ease both; }
@@ -970,22 +774,6 @@ footer {
     margin: 0;
     padding: 0 10px;
     height: intial; }
-/*   section:nth-of-type(3) #gallery .mix .card {
-    width: 390px; }
-  section:nth-of-type(3) .filter {
-    font-size: 13pt;
-    padding: 0 40px;
-    margin: 0 25px; }
-  section:nth-of-type(4) .blog-wrap {
-    width: 400px;
-    margin: 0 0 50px 20px;
-    opacity: 0; } }
-@media screen and (min-width: 1280px) {
-  section:nth-of-type(4) .blog-wrap {
-    width: 270px;
-    margin: 0 0 50px 20px; } } */
 
-    /** blockquote styles **/
-.bq3 { width: 400px; background: url('../img/quote-L.png') top left no-repeat; padding-left: 55px; line-height: 18px; color: #575757; }
-.bq3 p { padding-right: 35px; line-height: 18px; background: url('../img/quote-R.png') bottom right no-repeat; padding-bottom: 15px; color: #333; font-size: 13px; }
-/*# sourceMappingURL=style.css.map */
+
+   /*# sourceMappingURL=style.css.map */

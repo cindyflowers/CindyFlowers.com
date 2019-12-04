@@ -11,18 +11,12 @@ $(function() {
    })
   }
 
-  // RESIZE RESETS
-  // $(window).resize(function(){
-  //   posFilterBar($('.filter').first());
-  // });
-
   // Sticky Nav on Mobile
   if (isMobile) {
     $('nav').addClass('fixed');
   } else {
     $('nav').addClass('desk');
   }
-
 
   // NAV POSITION
   var navPos = $('nav').position().top;
@@ -48,8 +42,6 @@ $(function() {
     // Link Highlighting
     if (pos2 > $('#home').offset().top)       { highlightLink('home'); }
     if (pos2 > $('#about').offset().top)      { highlightLink('about'); }
-    //if (pos2 > $('#portfolio').offset().top)  { highlightLink('portfolio'); }
-    //if (pos2 > $('#blog').offset().top)       { highlightLink('blog'); }
     if (pos2 > $('#contact').offset().top ||
         pos + $(window).height() === $(document).height()) {
           highlightLink('contact');
@@ -89,37 +81,6 @@ $(function() {
     $('.link-wrap').toggleClass('visible');
   });
 
-  // $('.blog-wrap').hover(  function() {
-  //   $('.blog-wrap').not(this).addClass('fade');
-  //   $( this ).addClass( "hover" );
-  // }, function() {
-  //   $( this ).removeClass( "hover" );
-  //   $('.blog-wrap').removeClass('fade');
-  // });
-
-  //posFilterBar($('.filter').first());
-
-/*   $('.filter').click(function(){
-    posFilterBar(this);
-  });
-
-  function posFilterBar(elem) {
-    var origin = $(elem).parent().offset().left;
-    var pos = $(elem).offset().left;
-    $('.float-bar').css({
-      left: pos - origin,
-      width: $(elem).innerWidth()
-    });
-    $('.float-bar .row').css('left', (pos - origin) * -1);
-  } */
-
-  // GALLERY
-  //$('#gallery').mixItUp({ });
-
-  //function mixClear() {
-  //  setTimeout(function() { $('#gallery').removeClass('waypoint') }, 2000);
-  //}
-
   // SCROLL ANIMATIONS
   function onScrollInit( items, elemTrigger ) {
     var offset = $(window).height() / 1.6
@@ -147,24 +108,5 @@ $(function() {
   }
 
   setTimeout(function() { onScrollInit($('.waypoint')) }, 10);
-
-  // CONTACT FORM
-  // $('#contact-form').submit(function(e) {
-  //   e.preventDefault();
-
-  //     $.ajax({
-  //         url: "https://formspree.io/mnqnzzgv",
-  //         method: "POST",
-  //         data: { message: $('form').serialize() },
-  //         dataType: "json"
-  //     }).done(function(response) {
-  //         $('#success').addClass('expand');
-  //         $('#contact-form').find("input[type=text], input[type=email], textarea").val("");
-  //     });
-  // });
-
-  // $('#close').click(function() {
-  //   $('#success').removeClass('expand');
-  // })
 
 });
