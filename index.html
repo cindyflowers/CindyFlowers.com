@@ -1,197 +1,198 @@
 <!DOCTYPE html>
-<html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-  <!-- HOSTED -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
-  <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
-  <!-- LOCAL -->
-  <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
-  <link rel="stylesheet" href="style/style.css">
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
-  <!-- HOSTED -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
-  <!-- LOCAL -->
-  <script src="scripts/pt.min.js"></script>
-  <script src="scripts/index.js"></script>
-</head>
-<body>
-<div class="overflow-wrap">
-<!-- HOME -->
-  <section id="home" class="flex height-fix">
-    <div id="pt" class="canvas"></div>
-    <div class="flex">
-      <div class="text">
-        Hello, I'm <span class="highlight">Cindy Flowers</span>.
-        <br>
-        I'm a full-stack ASP.NET developer.
-      </div>
-      <div class="button page-link" dest="about">About Me <i class="mdi mdi-arrow-right"></i></div>
-      <nav class="flex">
-        <div class="link-wrap">
-          <div class="active page-link" dest="home">home</div>
-          <div class="page-link" dest="about">about</div>
-          <div class="page-link" dest="contact">contact</div>
+<html lang="en">
+  <header><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cindy Flowers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- HOSTED -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+    <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+    <!-- LOCAL -->
+    <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    <!-- HOSTED -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <!-- LOCAL -->
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+  </header>
+  <body>
+    <div class="overflow-wrap">
+      <main id="maincontent" >
+        <!-- HOME -->
+        <section id="home" class="flex height-fix" >
+          <div id="pt" class="canvas"></div>
+          <div class="flex">
+            <div class="text">
+              Hello, I'm <span class="highlight">Cindy Flowers</span>.
+              <br>
+              I'm a full-stack ASP.NET developer.
+            </div>
+            <div class="button page-link" dest="about">About Me <i class="mdi mdi-arrow-right"></i></div>
+            <nav class="flex">
+              <div class="link-wrap">
+                <div class="active page-link" dest="home">home</div>
+                <div class="page-link" dest="about">about</div>
+                <div class="page-link" dest="contact">contact</div>
+              </div>
+              <i class="mdi mdi-menu"></i>
+            </nav>
+          </div>
+        </section>
+        <!-- ABOUT -->
+        <section id="about" >
+          <div class="container flex">
+            <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
+            <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+            <div class="skills-wrapper flex row-gt-sm">
+              <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+                <img src="img/me.JPG" class="me" alt="Cindy Flowers">
+                <div class="label bold">About Me</div>
+                <div>
+                  Senior Full-Stack ASP.NET Software Developer with management experience. Team player offering 20+ years of experience in software development.
+                  <br>
+                  Passion for continuous learning, developing and delivering quality solutions based on solid design principles and practices. 
+                  <br>
+                  <span class="page-link highlight" dest="contact">Send me a message.</span>
+                </div>
+              </div>
+              <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+                <div class="bar flex">
+                  <div class="bar fill" style="width:75%">
+                    <div class="tag bold flex">ASP.NET</div>
+                  </div>
+                  <span>75%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:80%">
+                    <div class="tag bold flex">C#</div>
+                  </div>
+                  <span>80%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:65%">
+                    <div class="tag bold flex">HTML</div>
+                  </div>
+                  <span>65%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:70%">
+                    <div class="tag bold flex">JavaScript</div>
+                  </div>
+                  <span>70%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:35%">
+                    <div class="tag bold flex">React</div>
+                  </div>
+                  <span>35%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:55%">
+                    <div class="tag bold flex">MVC</div>
+                  </div>
+                  <span>55%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:65%">
+                    <div class="tag bold flex">jQuery</div>
+                  </div>
+                  <span>65%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:55%">
+                    <div class="tag bold flex">UI Design</div>
+                  </div>
+                  <span>55%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:50%">
+                    <div class="tag bold flex">ASP.NET Core</div>
+                  </div>
+                  <span>50%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:70%">
+                    <div class="tag bold flex">SQL</div>
+                  </div>
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="container flex">
+              <br>
+                <div class="label bold">Recommendations</div>
+                <blockquote class="waypoint"  data-animation="slide-in-right">
+                    <p>
+                      <span class="iconify" data-icon="mdi-format-quote-open" data-inline="false"></span>
+                      Cindy is a diligent worker with a broad base of experience. She's happy to jump into any new technology and figure out the best way to apply it to a problem. She worked remotely for me and I never had any issues with her engagement or output. A great person to have on your team, and a great mentor for more junior developers.
+                      <span class="iconify" data-icon="mdi-format-quote-close" data-inline="false"></span> 
+                      <br><b>Erik B - Chief Technology Officer</b>
+                    </p>
+                  </blockquote>
+                <blockquote class="waypoint"  data-animation="slide-in-left">
+                  <p>
+                    <span class="iconify" data-icon="mdi-format-quote-open" data-inline="false"></span>
+                      Cindy is an incredibly talented developer with an extensive knowledge of server, database and UI design concepts and libraries. Her ability to manage complex database structures to filter and deliver usable data to an application’s front end is unmatched. Always ready to embrace new technologies, she will dive in and prototype a new application from the ground up, delivering a logically architected framework enabling other team members to join in the effort with ease. Whether doing code reviews, wrestling with code, or researching solutions, she is always there to assist other colleagues if they have a blocker. I thoroughly enjoyed working with Cindy and I hope to have an opportunity to do so again.
+                    <span class="iconify" data-icon="mdi-format-quote-close" data-inline="false"></span> 
+                    <br><b>Chris L - Senior Software Engineer</b>
+                  </p>
+                </blockquote>
+                <blockquote class="waypoint"  data-animation="slide-in-right">
+                    <p>
+                      <span class="iconify" data-icon="mdi-format-quote-open" data-inline="false"></span>
+                      Cindy was instrumental in the development of GigaTrust's cloud strategy. As the industry and technology changed Cindy was quick at adapting and applying what she learned to GigaTrust's products. She's a dedicated engineer with a very positive "can do" attitude.
+                      <span class="iconify" data-icon="mdi-format-quote-close" data-inline="false"></span> 
+                      <br><b>Tom D - Principal Software Engineer</b>
+                    </p>
+                  </blockquote>
+            </div>
+          </div>
+        </section>
+        <!-- CONTACT -->
+        <section id="contact" >
+          <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+            <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+          </svg>
+          <div class="container flex">
+            <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
+            <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+            <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question?</div>
+            <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form" action="https://formspree.io/mnqnzzgv"
+            method="POST">
+              <input placeholder="Name" type="text" name="name" required>
+              <input placeholder="Enter email" type="email" name="_replyto" required>
+              <textarea placeholder="Your Message" type="text" name="message"></textarea>
+              <input class="button" type="submit" id="submit" value=SUBMIT>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer title="footer">
+        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+        <div class="icon-wrap flex row">
+          <a href="https://www.linkedin.com/in/cindyflowersva/" target="_blank" aria-label="LinkedIn page for Cindy Flowers">
+            <div class="flex icon" id="icon-2">
+              <i class="mdi mdi-linkedin"></i>
+            </div>
+          </a>
+          <a href="https://github.com/cindyflowers" target="_blank" aria-label="GitHub page for Cindy Flowers">
+            <div class="flex icon" id="icon-3">
+              <i class="mdi mdi-github-box"></i>
+            </div>
+          </a>
         </div>
-        <i class="mdi mdi-menu"></i>
-      </nav>
-    </div>
-  </section>
-<!-- ABOUT -->
-  <section id="about">
-    <div class="container flex">
-      <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
-      <div class="skills-wrapper flex row-gt-sm">
-        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
-          <img src="img/me.JPG" class="me">
-          <div class="label bold">About Me</div>
-          <div>
-            Senior Full-Stack ASP.NET Software Developer with management experience. Team player offering 20+ years of experience in software development.
-            <br>
-            Passion for continuous learning, developing and delivering quality solutions based on solid design principles and practices. 
-            <br>
-            <span class="page-link highlight" dest="contact">Send me a message.</span>
-          </div>
+        <div class="info-box">
+          <div class="footnote">CINDY FLOWERS <span class="highlight">&copy;2019</span></div>
         </div>
-        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
-          <div class="bar flex">
-            <div class="bar fill" style="width:75%">
-              <div class="tag bold flex">ASP.NET</div>
-            </div>
-            <span>75%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:80%">
-              <div class="tag bold flex">C#</div>
-            </div>
-            <span>80%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">HTML</div>
-            </div>
-            <span>65%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:70%">
-              <div class="tag bold flex">JavaScript</div>
-            </div>
-            <span>70%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:35%">
-              <div class="tag bold flex">React</div>
-            </div>
-            <span>35%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:55%">
-              <div class="tag bold flex">MVC</div>
-            </div>
-            <span>55%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:65%">
-              <div class="tag bold flex">jQuery</div>
-            </div>
-            <span>65%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:55%">
-              <div class="tag bold flex">UI Design</div>
-            </div>
-            <span>55%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:50%">
-              <div class="tag bold flex">ASP.NET Core</div>
-            </div>
-            <span>50%</span>
-          </div>
-          <div class="bar flex">
-            <div class="bar fill" style="width:70%">
-              <div class="tag bold flex">SQL</div>
-            </div>
-            <span>70%</span>
-          </div>
-        </div>
-      </div>
-      <div class="container flex">
-        <br>
-          <div class="label bold">Recommendations</div>
-          <blockquote class="waypoint"  data-animation="slide-in-right">
-              <p>
-                <span class="iconify" data-icon="mdi-format-quote-open" data-inline="false"></span>
-                Cindy is a diligent worker with a broad base of experience. She's happy to jump into any new technology and figure out the best way to apply it to a problem. She worked remotely for me and I never had any issues with her engagement or output. A great person to have on your team, and a great mentor for more junior developers.
-                <span class="iconify" data-icon="mdi-format-quote-close" data-inline="false"></span> 
-                <br><b>Erik B - Chief Technology Officer</b>
-              </p>
-            </blockquote>
-          <blockquote class="waypoint"  data-animation="slide-in-left">
-            <p>
-              <span class="iconify" data-icon="mdi-format-quote-open" data-inline="false"></span>
-                Cindy is an incredibly talented developer with an extensive knowledge of server, database and UI design concepts and libraries. Her ability to manage complex database structures to filter and deliver usable data to an application’s front end is unmatched. Always ready to embrace new technologies, she will dive in and prototype a new application from the ground up, delivering a logically architected framework enabling other team members to join in the effort with ease. Whether doing code reviews, wrestling with code, or researching solutions, she is always there to assist other colleagues if they have a blocker. I thoroughly enjoyed working with Cindy and I hope to have an opportunity to do so again.
-              <span class="iconify" data-icon="mdi-format-quote-close" data-inline="false"></span> 
-              <br><b>Chris L - Senior Software Engineer</b>
-            </p>
-          </blockquote>
-          <blockquote class="waypoint"  data-animation="slide-in-right">
-              <p>
-                <span class="iconify" data-icon="mdi-format-quote-open" data-inline="false"></span>
-                Cindy was instrumental in the development of GigaTrust's cloud strategy. As the industry and technology changed Cindy was quick at adapting and applying what she learned to GigaTrust's products. She's a dedicated engineer with a very positive "can do" attitude.
-                <span class="iconify" data-icon="mdi-format-quote-close" data-inline="false"></span> 
-                <br><b>Tom D - Principal Software Engineer</b>
-              </p>
-            </blockquote>
-      </div>
+      </footer>
     </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact">
-    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
-      <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-    </svg>
-    <div class="container flex">
-      <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
-      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
-      <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">Have a question?</div>
-      <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form" action="https://formspree.io/mnqnzzgv"
-      method="POST">
-        <input placeholder="Name" type="text" name="name" required>
-        <input placeholder="Enter email" type="email" name="_replyto" required>
-        <textarea placeholder="Your Message" type="text" name="message"></textarea>
-        <input class="button" type="submit" id="submit" value=SUBMIT>
-      </form>
+    <div id="preload">
+      <img src="img/me.JPG" alt="Cindy Flowers"/>
     </div>
-  </section>
-  <footer>
-    <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
-    <div class="icon-wrap flex row">
-      <a href="https://www.linkedin.com/in/cindyflowersva/">
-        <div class="flex icon" id="icon-2">
-          <i class="mdi mdi-linkedin"></i>
-        </div>
-      </a>
-      <a href="https://github.com/cindyflowers">
-        <div class="flex icon" id="icon-3">
-          <i class="mdi mdi-github-box"></i>
-        </div>
-      </a>
-    </div>
-    <div class="info-box">
-      <div class="footnote">CINDY FLOWERS <span class="highlight">&copy;2019</span></div>
-    </div>
-  </footer>
-</div>
-<div id="preload">
-   <img src="img/me.JPG"/>
-   <img src="img/filler.jpg"/>
-</div>
+  </body>
 </html>
 <script src="scripts/canvas2.js"></script>
