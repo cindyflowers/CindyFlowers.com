@@ -1,11 +1,14 @@
 @font-face {
   font-family: 'Raleway';
+  font-display: auto;
   src: url("fonts/Raleway-Regular.ttf"); }
 @font-face {
   font-family: 'Raleway-semibold';
+  font-display: auto;
   src: url("fonts/Raleway-SemiBold.ttf"); }
 @font-face {
   font-family: 'Raleway-bold';
+  font-display: auto;
   src: url("fonts/Raleway-Bold.ttf"); }
 @keyframes fadeIn {
   100% {
